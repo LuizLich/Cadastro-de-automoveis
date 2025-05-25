@@ -192,3 +192,60 @@ footer {
         font-size: 11px;
     }
 }
+
+.car-card {
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo mais branco para melhor contraste */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center; /* Centraliza todo o texto */
+    color: #000000; /* Texto preto */
+}
+
+.car-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.car-card strong {
+    font-size: 1.1em;
+    color: #000000; /* Texto preto */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.car-card p {
+    margin: 8px 0;
+    color: #000000; /* Texto preto */
+}
+
+.car-card .info-label {
+    font-weight: bold;
+}
+
+.car-actions {
+    margin-top: 15px;
+}
+
+.car-card button {
+    margin: 0 5px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.car-card button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.car-card button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
