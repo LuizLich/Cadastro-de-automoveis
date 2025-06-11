@@ -23,6 +23,7 @@ Projeto final da disciplina Desenvolvimento de Aplicações Web, do 7º período
 | CSS3            | Estilização com efeitos modernos    |
 | JavaScript      | Lógica da aplicação                 |
 
+[![My Skills](https://skillicons.dev/icons?i=firebase,html,css,js)](https://skillicons.dev)
 ## 👥 Grupo
 
 <div align="center">
